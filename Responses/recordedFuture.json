@@ -1,0 +1,3582 @@
+{
+    "raw_data": {
+        "risk": {
+            "criticalityLabel": "Malicious",
+            "riskString": "8/17",
+            "rules": 8,
+            "criticality": 3,
+            "riskSummary": "8 of 17 Risk Rules currently observed.",
+            "score": 89,
+            "evidenceDetails": [
+                {
+                    "mitigationString": "",
+                    "evidenceString": "20 sightings on 2 sources: Trend Micro, Talos Intel. Most recent link (Sep 8, 2022): https://blog.talosintelligence.com/2022/09/lazarus-three-rats.html",
+                    "rule": "Threat Researcher",
+                    "criticality": 1,
+                    "timestamp": "2022-09-08T08:01:00.000Z",
+                    "criticalityLabel": "Unusual"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "Previous sightings on 1 source: Recorded Future Analyst Community Trending Indicators. Observed between Sep 22, 2022, and Sep 27, 2022.",
+                    "rule": "Historically Reported in Threat List",
+                    "criticality": 1,
+                    "timestamp": "2023-08-17T22:29:19.530Z",
+                    "criticalityLabel": "Unusual"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "3 sightings on 1 source: Insikt Group. 8 related attack vectors including Brute Force Attack, Malicious code, Living-off-the-Land, ShellCode, Code injection.",
+                    "rule": "Linked to Attack Vector",
+                    "criticality": 2,
+                    "timestamp": "2023-03-09T22:20:17.967Z",
+                    "criticalityLabel": "Suspicious"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "30 sightings on 3 sources: Trend Micro, AlienVault | Pulses, Insikt Group. 14 related cyber vulnerabilities including CWE-918, CWE-917, CVE-2020-1472, CVE-2021-44832, CVE-2021-45105.",
+                    "rule": "Linked to Vulnerability",
+                    "criticality": 2,
+                    "timestamp": "2022-09-14T18:29:09.809Z",
+                    "criticalityLabel": "Suspicious"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "11 sightings on 3 sources: Recorded Future Triage Malware Analysis, PolySwarm PolyUnite, PolySwarm. Malware sandbox report for 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 on August 17, 2023.   Triage score: 10 (Known bad). Detections: Mimikatz. Contains: 0 ATT&CK behaviors, 0 command and control indicators, and 2 signatures. Most recent link (Aug 17, 2023): https://tria.ge/230817-1ljafafd3s",
+                    "rule": "Positive Malware Verdict",
+                    "criticality": 3,
+                    "timestamp": "2023-08-17T21:46:48.000Z",
+                    "criticalityLabel": "Malicious"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "4 sightings on 1 source: Insikt Group. 3 reports including New InfoStealer for Cyberespionage Activities Targets Asian Governments. Most recent link (Sep 14, 2022): https://app.recordedfuture.com/portal/analyst-note/doc:n-oKLs",
+                    "rule": "Reported by Insikt Group",
+                    "criticality": 3,
+                    "timestamp": "2023-03-09T00:00:00.000Z",
+                    "criticalityLabel": "Malicious"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "3 sightings on 1 source: Recorded Future Malware Detonation.",
+                    "rule": "Positive Sandbox Detection on File From Underground Virus Testing Sites",
+                    "criticality": 3,
+                    "timestamp": "2021-12-16T02:15:24.000Z",
+                    "criticalityLabel": "Malicious"
+                },
+                {
+                    "mitigationString": "",
+                    "evidenceString": "2 sightings on 1 source: Special Collection Hashes.",
+                    "rule": "Observed in Underground Virus Testing Sites",
+                    "criticality": 3,
+                    "timestamp": "2022-08-30T18:05:42.000Z",
+                    "criticalityLabel": "Malicious"
+                }
+            ]
+        },
+        "sightings": [
+            {
+                "source": "PolySwarm",
+                "url": "https://polyswarm.network/scan/results/file/912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                "published": "2021-09-22T19:50:09.165Z",
+                "fragment": "PolySwarm report for 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                "title": "PolySwarm report for 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                "type": "first"
+            },
+            {
+                "source": "PasteBin",
+                "url": "https://pastebin.com/LLdBUjFt",
+                "published": "2022-06-03T09:34:41.000Z",
+                "fragment": "bb8bdb3e8c92e97e2f63626bc3b254c4",
+                "title": "Untitled Paste from Pastebin",
+                "type": "recentPaste"
+            },
+            {
+                "source": "ASEC Blog Japan",
+                "url": "https://asec.ahnlab.com/jp/52458/",
+                "published": "2023-05-15T10:42:00.000Z",
+                "fragment": "Mimikatz 825e6e194a9d5e12cbf109b7de07a244 6c9ad4e67032301a61a9897377d9cff8 bb8bdb3e8c92e97e2f63626bc3b254c4 29efd64dd3c7fe1e2b022b7ad73a1ba5。",
+                "title": "中国ハッカーグループによる韓国国内企業情報の窃取",
+                "type": "recentInfoSec"
+            },
+            {
+                "source": "PolySwarm",
+                "url": "https://polyswarm.network/scan/results/file/912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                "published": "2021-09-22T19:50:09.165Z",
+                "fragment": "PolySwarm report for 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 first seen on 2021-08-28T10:40:58.041Z, Polyscore 0.9999419433517251 win/malicious 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 Trojan.PSW.Mimikatz.pv 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 Trojan:Win32/Mimikatz.4b2 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 Win.Trojan.Mimikatz-6466236-0 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 HackTool.Mimikatz 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                "title": "PolySwarm report for 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                "type": "mostRecent"
+            }
+        ],
+        "entity": {
+            "id": "hash:912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+            "name": "912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+            "type": "Hash"
+        },
+        "relatedEntities": [
+            {
+                "entities": [
+                    {
+                        "count": 46,
+                        "entity": {
+                            "id": "J0Nl-p",
+                            "name": "Ransomware",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 11,
+                        "entity": {
+                            "id": "SMlvRl",
+                            "name": "Stealware",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "UUfmX9",
+                            "name": "Cryptocurrency Mining Malware",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 3,
+                        "entity": {
+                            "id": "hzdgTv",
+                            "name": "Offensive Security Tools (OST)",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "QCqLhE",
+                            "name": "Backdoor",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "E0yzG",
+                            "name": "Remote Access Trojan",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "0efpT",
+                            "name": "Trojan",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "J31vQ6",
+                            "name": "Banking Trojan",
+                            "type": "MalwareCategory"
+                        }
+                    }
+                ],
+                "type": "RelatedMalwareCategory"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 29,
+                        "entity": {
+                            "id": "kvXvR5",
+                            "name": "CVE-2021-44228",
+                            "type": "CyberVulnerability",
+                            "description": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects."
+                        }
+                    },
+                    {
+                        "count": 23,
+                        "entity": {
+                            "id": "RjXPYm",
+                            "name": "CWE-502",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "KeKwRK",
+                            "name": "CWE-20",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 6,
+                        "entity": {
+                            "id": "RqojfP",
+                            "name": "CWE-400",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 6,
+                        "entity": {
+                            "id": "fBMc4w",
+                            "name": "CWE-917",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "MWriKW",
+                            "name": "CWE-74",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "Rz8X_K",
+                            "name": "CWE-330",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "WAJoO-",
+                            "name": "CWE-918",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "bee3yj",
+                            "name": "CWE-674",
+                            "type": "CyberVulnerability"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ezpIWN",
+                            "name": "CVE-2020-1472",
+                            "type": "CyberVulnerability",
+                            "description": "An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'."
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hdR6BQ",
+                            "name": "CVE-2021-26855",
+                            "type": "CyberVulnerability",
+                            "description": "Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078."
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "k73e7p",
+                            "name": "CVE-2021-44832",
+                            "type": "CyberVulnerability",
+                            "description": "Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2."
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "k9_Yfv",
+                            "name": "CVE-2021-45046",
+                            "type": "CyberVulnerability",
+                            "description": "It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default."
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "k_fsRV",
+                            "name": "CVE-2021-45105",
+                            "type": "CyberVulnerability",
+                            "description": "Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1."
+                        }
+                    }
+                ],
+                "type": "RelatedCyberVulnerability"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 17,
+                        "entity": {
+                            "id": "hash:a03b57cc0103316e974bbb0f159f78f6",
+                            "name": "a03b57cc0103316e974bbb0f159f78f6",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 13,
+                        "entity": {
+                            "id": "hash:29a3ae1d32e249d01b39520cd1db27aa980e646d83694ff078424bed60df9304",
+                            "name": "29a3ae1d32e249d01b39520cd1db27aa980e646d83694ff078424bed60df9304",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 13,
+                        "entity": {
+                            "id": "hash:63bdd396ff6397b3a17913badb7905c88e217d0a8cf864ab5e71cc174a4f97a1",
+                            "name": "63bdd396ff6397b3a17913badb7905c88e217d0a8cf864ab5e71cc174a4f97a1",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 13,
+                        "entity": {
+                            "id": "hash:63ebb998ebbbfe3863214a85c388fc23b58af4492b2e96eb53c436360344d79d",
+                            "name": "63ebb998ebbbfe3863214a85c388fc23b58af4492b2e96eb53c436360344d79d",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 13,
+                        "entity": {
+                            "id": "hash:cac73029ad6a543b423822923967f4c240d02516fab34185c59067896ac6eb99",
+                            "name": "cac73029ad6a543b423822923967f4c240d02516fab34185c59067896ac6eb99",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 13,
+                        "entity": {
+                            "id": "hash:f2faa8a91840de16efb8194182bcfa9919b74a2c2de40d6ed4791a3308897a01",
+                            "name": "f2faa8a91840de16efb8194182bcfa9919b74a2c2de40d6ed4791a3308897a01",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:21ea77788aa2649614c9ec739f1dd1b8",
+                            "name": "21ea77788aa2649614c9ec739f1dd1b8",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:4edd26323a12e06568ed69e49a8595a5",
+                            "name": "4edd26323a12e06568ed69e49a8595a5",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:4fdabe571b66ceec3448939bfb3ffcd1",
+                            "name": "4fdabe571b66ceec3448939bfb3ffcd1",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:597de376b1f80c06d501415dd973dcec",
+                            "name": "597de376b1f80c06d501415dd973dcec",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:5e1a53a0178c9be598edff8c5170b91c",
+                            "name": "5e1a53a0178c9be598edff8c5170b91c",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:646698572afbbf24f50ec5681feb2db7",
+                            "name": "646698572afbbf24f50ec5681feb2db7",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:6a58b52b184715583cda792b56a0a1ed",
+                            "name": "6a58b52b184715583cda792b56a0a1ed",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:70f87b7d3aedcd50c9e1c79054e026bd",
+                            "name": "70f87b7d3aedcd50c9e1c79054e026bd",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:715ddf490dbaf7d67780e44448e21ca1",
+                            "name": "715ddf490dbaf7d67780e44448e21ca1",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:ddfad0d55be70acdfea36acf28d418b3",
+                            "name": "ddfad0d55be70acdfea36acf28d418b3",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "hash:f627c30429d967082cdcf634aa735410",
+                            "name": "f627c30429d967082cdcf634aa735410",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 8,
+                        "entity": {
+                            "id": "hash:29efd64dd3c7fe1e2b022b7ad73a1ba5",
+                            "name": "29efd64dd3c7fe1e2b022b7ad73a1ba5",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 8,
+                        "entity": {
+                            "id": "hash:6c9ad4e67032301a61a9897377d9cff8",
+                            "name": "6c9ad4e67032301a61a9897377d9cff8",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 8,
+                        "entity": {
+                            "id": "hash:825e6e194a9d5e12cbf109b7de07a244",
+                            "name": "825e6e194a9d5e12cbf109b7de07a244",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:011cedd9932207ee5539895e2a1ed60a",
+                            "name": "011cedd9932207ee5539895e2a1ed60a",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:23c0500a69b71d5942585bb87559fe83",
+                            "name": "23c0500a69b71d5942585bb87559fe83",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:46f366e3ee36c05ab5a7a319319f7c72",
+                            "name": "46f366e3ee36c05ab5a7a319319f7c72",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:53271b2ab6c327a68e78a7c0bf9f4044",
+                            "name": "53271b2ab6c327a68e78a7c0bf9f4044",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:6983f7001de10f4d19fc2d794c3eb534",
+                            "name": "6983f7001de10f4d19fc2d794c3eb534",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:7bd775395b821e158a6961c573e6fd43",
+                            "name": "7bd775395b821e158a6961c573e6fd43",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:80f421c5fd5b28fc05b485de4f7896a1",
+                            "name": "80f421c5fd5b28fc05b485de4f7896a1",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:b434df66d0dd15c2f5e5b2975f2cfbe2",
+                            "name": "b434df66d0dd15c2f5e5b2975f2cfbe2",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:bc744a4bf1c158dba37276bf7db50d85",
+                            "name": "bc744a4bf1c158dba37276bf7db50d85",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:c17cfe533f8ce24f0e41bd7e14a35e5e",
+                            "name": "c17cfe533f8ce24f0e41bd7e14a35e5e",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:c87ac56d434195c527d3358e12e2b2e0",
+                            "name": "c87ac56d434195c527d3358e12e2b2e0",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 7,
+                        "entity": {
+                            "id": "hash:fcb7f7dab6d401a17bd436fc12a84623",
+                            "name": "fcb7f7dab6d401a17bd436fc12a84623",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 6,
+                        "entity": {
+                            "id": "hash:d3763ffbfaf30bcfd866b8ed0324e7a3",
+                            "name": "d3763ffbfaf30bcfd866b8ed0324e7a3",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 6,
+                        "entity": {
+                            "id": "hash:e8c76dfec3c03e44eddff089dd85f489",
+                            "name": "e8c76dfec3c03e44eddff089dd85f489",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 6,
+                        "entity": {
+                            "id": "hash:f13dab7d9ce88ddc0c80c2b9c5f422b5",
+                            "name": "f13dab7d9ce88ddc0c80c2b9c5f422b5",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "hash:e81a8f8ad804c4d83869d7806a303ff04f31cce376c5df8aada2e9db2c1eeb98",
+                            "name": "e81a8f8ad804c4d83869d7806a303ff04f31cce376c5df8aada2e9db2c1eeb98",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:059d98dcb83be037cd9829d31c096dab",
+                            "name": "059d98dcb83be037cd9829d31c096dab",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:05ba2df0033e3cd5b987d66b6de545df439d338a20165c0ba96cde8a74e463e5",
+                            "name": "05ba2df0033e3cd5b987d66b6de545df439d338a20165c0ba96cde8a74e463e5",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:05fb86d34d4fa761926888e5347d96e984bbb1f3b693fe6c3ab77edb346f005b",
+                            "name": "05fb86d34d4fa761926888e5347d96e984bbb1f3b693fe6c3ab77edb346f005b",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:0bbfaea19c8d1444ae282ff5911a527b",
+                            "name": "0bbfaea19c8d1444ae282ff5911a527b",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:0ca345bc074fa2ef7a2797b875b6cd4d",
+                            "name": "0ca345bc074fa2ef7a2797b875b6cd4d",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:0d2cd1d7fceae2d98f2a5e5d175fafe62f080ac05222f894566a726553132f90",
+                            "name": "0d2cd1d7fceae2d98f2a5e5d175fafe62f080ac05222f894566a726553132f90",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:0f81c3850bc82a7d1927cf16bfad86c09414f8be319ef84b44a726103b7d029d",
+                            "name": "0f81c3850bc82a7d1927cf16bfad86c09414f8be319ef84b44a726103b7d029d",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:12534f7014b3338d8f9f86ff1bbeacf8c80ad03f1d0d19077ff0e406c58b5133",
+                            "name": "12534f7014b3338d8f9f86ff1bbeacf8c80ad03f1d0d19077ff0e406c58b5133",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:138c82c81ed7b84378a821074c88157c489d29d5ef66080baea88f5de0e865e6",
+                            "name": "138c82c81ed7b84378a821074c88157c489d29d5ef66080baea88f5de0e865e6",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:17dc2236b004f9737323d2f654038d9b11258c9c041d9d438c1cee249ead89ea",
+                            "name": "17dc2236b004f9737323d2f654038d9b11258c9c041d9d438c1cee249ead89ea",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:1a95c0b8046aafa8f943bd6b68f3de550177f8df8c382f12468c4dcb416b12bc",
+                            "name": "1a95c0b8046aafa8f943bd6b68f3de550177f8df8c382f12468c4dcb416b12bc",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:1c7e2d6ae46ff6c294885cb7936c905f328b303d6f790b66d7c4489f284c480a",
+                            "name": "1c7e2d6ae46ff6c294885cb7936c905f328b303d6f790b66d7c4489f284c480a",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:1d6aabf2114f9e6367b515d4ebfc6e104511ff4b05bd51a56fa52070c1d40e25",
+                            "name": "1d6aabf2114f9e6367b515d4ebfc6e104511ff4b05bd51a56fa52070c1d40e25",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:20c767d32304ed2812ed8186dc14ddaaae581481c6dee26447a904fcaa67db2a",
+                            "name": "20c767d32304ed2812ed8186dc14ddaaae581481c6dee26447a904fcaa67db2a",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:21d268341884c4fc62b5af7a3b433d90",
+                            "name": "21d268341884c4fc62b5af7a3b433d90",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:2237e15b094983a79f60bc1f7e962b7fb63aae75cbf5043ee636be4c8fdb9bee",
+                            "name": "2237e15b094983a79f60bc1f7e962b7fb63aae75cbf5043ee636be4c8fdb9bee",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:22381941763862631070e043d4dd0dc2",
+                            "name": "22381941763862631070e043d4dd0dc2",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:23930b4c3eee085c3989a557f85dc3875b90b080623b3f259702fe207e48dad1",
+                            "name": "23930b4c3eee085c3989a557f85dc3875b90b080623b3f259702fe207e48dad1",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:23d0eff3c37390d38e6386a964c88ac2dafbace92090a762ae9e23bd49510f09",
+                            "name": "23d0eff3c37390d38e6386a964c88ac2dafbace92090a762ae9e23bd49510f09",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:25b0c720edf459b98346692d52c094abc92bae6b9e1309b7ab6f11057d605e21",
+                            "name": "25b0c720edf459b98346692d52c094abc92bae6b9e1309b7ab6f11057d605e21",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:274ca13168b38590c230bddc2d606bbe8c26de8a6d79156a6c7d07265efe0fdf",
+                            "name": "274ca13168b38590c230bddc2d606bbe8c26de8a6d79156a6c7d07265efe0fdf",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:28e026b9550e4eb37435013425abfa38",
+                            "name": "28e026b9550e4eb37435013425abfa38",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:2ceabffe2d40714e5535212d46d78119",
+                            "name": "2ceabffe2d40714e5535212d46d78119",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:2f1520301536958bcf5c65516ca85a343133b443db9835a58049cd1694460424",
+                            "name": "2f1520301536958bcf5c65516ca85a343133b443db9835a58049cd1694460424",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:33129e959221bf9d5211710747fddabe",
+                            "name": "33129e959221bf9d5211710747fddabe",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:33f3190e55e4903c2f112d93f89db7b98ed0e21cc2855b0a3e85806e03d57f44",
+                            "name": "33f3190e55e4903c2f112d93f89db7b98ed0e21cc2855b0a3e85806e03d57f44",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
+                            "name": "386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:38d4456b38a2896f23cad615e3c9167e65434778074a9b24af3cbc14d1e323bf",
+                            "name": "38d4456b38a2896f23cad615e3c9167e65434778074a9b24af3cbc14d1e323bf",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:3e53deb5d2572c0f9fae10b870c8d4f5fdc7bd0fe1cc3b15ca91b31924373136",
+                            "name": "3e53deb5d2572c0f9fae10b870c8d4f5fdc7bd0fe1cc3b15ca91b31924373136",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:3eae4e106fe477133c68769adfdc67715f787c2ed25c0ee55c5dd1edea01f8d8",
+                            "name": "3eae4e106fe477133c68769adfdc67715f787c2ed25c0ee55c5dd1edea01f8d8",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:48514e6bb92dd9e24a16a4ab1c7c3bd89dad76bef53cec2a671821024fadcb2b",
+                            "name": "48514e6bb92dd9e24a16a4ab1c7c3bd89dad76bef53cec2a671821024fadcb2b",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:48b99c2f0441f5a4794afb4f89610e48",
+                            "name": "48b99c2f0441f5a4794afb4f89610e48",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:49c23a187810edd3c16689ee1766445ec49a7221507dbe51e7b5af8ec46a91ee",
+                            "name": "49c23a187810edd3c16689ee1766445ec49a7221507dbe51e7b5af8ec46a91ee",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:51d45e6c5df6b43b17afc863794f34000d32fb37cd7c3664efc5bd99039ac3df",
+                            "name": "51d45e6c5df6b43b17afc863794f34000d32fb37cd7c3664efc5bd99039ac3df",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:52ff6e3e942ac8ee012dcde89e7a1116",
+                            "name": "52ff6e3e942ac8ee012dcde89e7a1116",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:537521fb7f2cad278a3cacf2cfd46b6f5f4cf6154b4968a4cd653a110d7a44d1",
+                            "name": "537521fb7f2cad278a3cacf2cfd46b6f5f4cf6154b4968a4cd653a110d7a44d1",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:5913f55b48b69bfb1da9fb39fb7b8509266922531da20fc8374f87c734e6a43d",
+                            "name": "5913f55b48b69bfb1da9fb39fb7b8509266922531da20fc8374f87c734e6a43d",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:5bedd1b05879b900b60a07abc57fab3075266ee7fa72385ced582699a51f1ec7",
+                            "name": "5bedd1b05879b900b60a07abc57fab3075266ee7fa72385ced582699a51f1ec7",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:61239d726c92c82f553200ecbec3ac18d251902fb9ca4d4f52263c82374a5b75",
+                            "name": "61239d726c92c82f553200ecbec3ac18d251902fb9ca4d4f52263c82374a5b75",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:678dbe60e15d913fb363c8722bde313d",
+                            "name": "678dbe60e15d913fb363c8722bde313d",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:68403cc3a6fcbeb9e5e9f7263d04c02f",
+                            "name": "68403cc3a6fcbeb9e5e9f7263d04c02f",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:6a20945ae9f7c9e1a28015e40758bb4f",
+                            "name": "6a20945ae9f7c9e1a28015e40758bb4f",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:6b5bccf615bf634b0e55a86a9c24c902",
+                            "name": "6b5bccf615bf634b0e55a86a9c24c902",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:6fbb771cd168b5d076525805d010ae0cd73b39ab1f4e6693148fe18b8f73090b",
+                            "name": "6fbb771cd168b5d076525805d010ae0cd73b39ab1f4e6693148fe18b8f73090b",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:704e6eb9bded6d22feab88fa81e6b0b901bee7a451a290c20527c48c235ebf52",
+                            "name": "704e6eb9bded6d22feab88fa81e6b0b901bee7a451a290c20527c48c235ebf52",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:709d80d3d2ba62b6bc2bc4d98df4a4a8e7d21616015261e55cf98ace77912c52",
+                            "name": "709d80d3d2ba62b6bc2bc4d98df4a4a8e7d21616015261e55cf98ace77912c52",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:70c62e0f2725a158d53c4fe2be205bb5ae07264a85af693741761e7fb7c8c521",
+                            "name": "70c62e0f2725a158d53c4fe2be205bb5ae07264a85af693741761e7fb7c8c521",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:77358157efbf4572c2d7f17a1a264990843307f802d20bad4fb2442245d65f0b",
+                            "name": "77358157efbf4572c2d7f17a1a264990843307f802d20bad4fb2442245d65f0b",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:7a25b21df9fa93a694f15d18cd81c9f9be6fc078912924c91c645f75a5966881",
+                            "name": "7a25b21df9fa93a694f15d18cd81c9f9be6fc078912924c91c645f75a5966881",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:7ce988f1b593e96206a1ef57eb1bec8a",
+                            "name": "7ce988f1b593e96206a1ef57eb1bec8a",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:7f0deab21a3773295319e7a0afca1bea792943de0041e22523eb0d61a1c155e2",
+                            "name": "7f0deab21a3773295319e7a0afca1bea792943de0041e22523eb0d61a1c155e2",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:8ad3f52462fd78f93c3fd4e111fc1a1d0cf8881154a84ad2d14074723b2f857f",
+                            "name": "8ad3f52462fd78f93c3fd4e111fc1a1d0cf8881154a84ad2d14074723b2f857f",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:942d949a28b2921fb980e2d659e6ef75",
+                            "name": "942d949a28b2921fb980e2d659e6ef75",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:96632f716df30af567da00d3624e245d162d0a05ac4b4e7cbadf63f04ca8d3da",
+                            "name": "96632f716df30af567da00d3624e245d162d0a05ac4b4e7cbadf63f04ca8d3da",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:978dffa295ac822064ff6f7a6b6bc498e854f833d36633214d35ccce70db4819",
+                            "name": "978dffa295ac822064ff6f7a6b6bc498e854f833d36633214d35ccce70db4819",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:99eccdfec72a080ce02e9bfcbb0d16e1f11c5c4c89c8086d564068f22e10da45",
+                            "name": "99eccdfec72a080ce02e9bfcbb0d16e1f11c5c4c89c8086d564068f22e10da45",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:9f04c46e0cdaa5bce32d98065e1e510a5f174e51b399d6408f2446444cccd5ff",
+                            "name": "9f04c46e0cdaa5bce32d98065e1e510a5f174e51b399d6408f2446444cccd5ff",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:9f55b31c66a01953c17eea6ace66f636",
+                            "name": "9f55b31c66a01953c17eea6ace66f636",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:a29f39713ce6a92e642d14374e7203f0",
+                            "name": "a29f39713ce6a92e642d14374e7203f0",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:a3517bc4b1e6470905f9a38466318b302186496e8706f1976f1ed76f3e87af0f",
+                            "name": "a3517bc4b1e6470905f9a38466318b302186496e8706f1976f1ed76f3e87af0f",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:a40b2adbf9a084937771336a1f11247ad5f45f1469c8c4446179c73557c05032",
+                            "name": "a40b2adbf9a084937771336a1f11247ad5f45f1469c8c4446179c73557c05032",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:a410785e26e676bf5a8129f15f4e43e09e1411ace7bd0cf31454831d0697cec5",
+                            "name": "a410785e26e676bf5a8129f15f4e43e09e1411ace7bd0cf31454831d0697cec5",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:a5ad3355f55e1a15baefea83ce81d038531af516f47716018b1dedf04f081f15",
+                            "name": "a5ad3355f55e1a15baefea83ce81d038531af516f47716018b1dedf04f081f15",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:a69d3580921ec8adce64c9b38ac3653a",
+                            "name": "a69d3580921ec8adce64c9b38ac3653a",
+                            "type": "Hash"
+                        }
+                    }
+                ],
+                "type": "RelatedHash"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 3,
+                        "entity": {
+                            "id": "idn:certum.pl",
+                            "name": "certum.pl",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 3,
+                        "entity": {
+                            "id": "idn:gentilkiwi.com",
+                            "name": "gentilkiwi.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "idn:mysmartlogon.com",
+                            "name": "mysmartlogon.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "idn:pingcastle.com",
+                            "name": "pingcastle.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:a-msedge.net",
+                            "name": "a-msedge.net",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:aadrm.com",
+                            "name": "aadrm.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:acompli.net",
+                            "name": "acompli.net",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:cortana.ai",
+                            "name": "cortana.ai",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:microsoftonline.com",
+                            "name": "microsoftonline.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:ofcrecsvcapi-int.azurewebsites.net",
+                            "name": "ofcrecsvcapi-int.azurewebsites.net",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:onenote.com",
+                            "name": "onenote.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:powerbi.com",
+                            "name": "powerbi.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:storage.googleapis.com",
+                            "name": "storage.googleapis.com",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:virtualearth.net",
+                            "name": "virtualearth.net",
+                            "type": "InternetDomainName"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "idn:windows.net",
+                            "name": "windows.net",
+                            "type": "InternetDomainName"
+                        }
+                    }
+                ],
+                "type": "RelatedInternetDomainName"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:103.56.114.69",
+                            "name": "103.56.114.69",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:176.113.115.107",
+                            "name": "176.113.115.107",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:190.2.141.128",
+                            "name": "190.2.141.128",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:27.124.17.222",
+                            "name": "27.124.17.222",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:45.136.230.191",
+                            "name": "45.136.230.191",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:45.92.1.60",
+                            "name": "45.92.1.60",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:46.148.235.114",
+                            "name": "46.148.235.114",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:8.214.122.199",
+                            "name": "8.214.122.199",
+                            "type": "IpAddress"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ip:88.218.193.76",
+                            "name": "88.218.193.76",
+                            "type": "IpAddress"
+                        }
+                    }
+                ],
+                "type": "RelatedIpAddress"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 36,
+                        "entity": {
+                            "id": "lkaZXI",
+                            "name": "AvosLocker Ransomware Group",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "I60vfZ",
+                            "name": "RedGolf",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "QgJxnM",
+                            "name": "Tick Group",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "TEwWo-",
+                            "name": "TAG-74",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "en_T6N",
+                            "name": "RedDelta",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hY1uU-",
+                            "name": "RedEcho",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "izUZWO",
+                            "name": "RedFoxtrot",
+                            "type": "Organization"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "i6eRSg",
+                            "name": "RedHotel",
+                            "type": "Organization"
+                        }
+                    }
+                ],
+                "type": "RelatedThreatActor"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 20,
+                        "entity": {
+                            "id": "PRhHS6",
+                            "name": ".exe",
+                            "type": "FileNameExtension"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "PRhHS8",
+                            "name": ".dll",
+                            "type": "FileNameExtension"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "PRhSDl",
+                            "name": ".php",
+                            "type": "FileNameExtension"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "PRhdGZ",
+                            "name": ".json",
+                            "type": "FileNameExtension"
+                        }
+                    }
+                ],
+                "type": "RelatedFileNameExtension"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 35,
+                        "entity": {
+                            "id": "i9R5n6",
+                            "name": "AvosLocker Ransomware",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 11,
+                        "entity": {
+                            "id": "Koaobl",
+                            "name": "Mimikatz",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "SYYEWL",
+                            "name": "GlobeImposter ",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "VT2KmL",
+                            "name": "XMRig Miner",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 10,
+                        "entity": {
+                            "id": "bqvw7C",
+                            "name": "MedusaLocker",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 5,
+                        "entity": {
+                            "id": "KuIOPj",
+                            "name": "CoinMiner",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "JLHNoH",
+                            "name": "Cobalt Strike",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "JS5BdY",
+                            "name": "PlugX",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "SMlvRl",
+                            "name": "Stealware",
+                            "type": "MalwareCategory"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "Kj2dz8",
+                            "name": "FScan",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "PtNxGj",
+                            "name": "Trochilus",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "P5F8HN",
+                            "name": "QuasarRAT",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "T36U6-",
+                            "name": "ShadowPad",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "aaa7zE",
+                            "name": "Sliver",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "mMRU1E",
+                            "name": "Fast Reverse Proxy (FRP)",
+                            "type": "Malware"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "oT8U0P",
+                            "name": "Havoc Framework",
+                            "type": "Malware"
+                        }
+                    }
+                ],
+                "type": "RelatedMalware"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:70df765f554ed7392200422c18776b8992c09231",
+                            "name": "70df765f554ed7392200422c18776b8992c09231",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "name": "912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "type": "Hash"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "hash:bb8bdb3e8c92e97e2f63626bc3b254c4",
+                            "name": "bb8bdb3e8c92e97e2f63626bc3b254c4",
+                            "type": "Hash"
+                        }
+                    }
+                ],
+                "type": "FileHashes"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "mrdBD",
+                            "name": "Code injection",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "DDGpZj",
+                            "name": "Brute Force Attack",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "JQ3ldp",
+                            "name": "Server Side Request Forgery",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "J0LOpv",
+                            "name": "Malicious code",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "Kt5me7",
+                            "name": "ShellCode",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "LW3MDH",
+                            "name": "DLL Side-Loading",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "PGG2wI",
+                            "name": "Target Destination Manipulation",
+                            "type": "AttackVector"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "ZLzEhD",
+                            "name": "Living-off-the-Land",
+                            "type": "AttackVector"
+                        }
+                    }
+                ],
+                "type": "RelatedAttackVector"
+            },
+            {
+                "entities": [
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "B_pRU",
+                            "name": "Microsoft Windows Server",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 2,
+                        "entity": {
+                            "id": "CE41CS",
+                            "name": "VirusTotal",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "B_HOS",
+                            "name": "Microsoft Windows",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "FrNr9",
+                            "name": "SysInternals",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "KsVn2",
+                            "name": "VMware Horizon",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "fnnEt",
+                            "name": "Dynamic Link Library",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "CP8T-y",
+                            "name": "VMware ESXi",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "I4qB7n",
+                            "name": "Filezilla",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "JKUkBN",
+                            "name": "ProcDump",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "JMPS3E",
+                            "name": "NetLogon",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "KcT1vC",
+                            "name": "Crash Handler",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "Kj2ds3",
+                            "name": "PsExec",
+                            "type": "Product"
+                        }
+                    },
+                    {
+                        "count": 1,
+                        "entity": {
+                            "id": "KtTl_b",
+                            "name": "WindowsWINSxs",
+                            "type": "Product"
+                        }
+                    }
+                ],
+                "type": "RelatedProduct"
+            }
+        ],
+        "analystNotes": [
+            {
+                "attributes": {
+                    "validated_on": "2023-03-08T04:00:00.000Z",
+                    "published": "2023-03-09T22:20:17.967Z",
+                    "text": "On March 8, 2023, ASEC identified a malicious campaign using Remote Desktop Protocol (RDP) to deploy the GlobeImposter and MedusaLocker ransomware. The adversaries behind the campaign also deploy various tools or malware alongside GlobeImposter ransomware, such as Port Scanner, NirSoft, Mimikatz, and XMRig CoinMiner, to perform activities such as stealing the victim’s credentials and cryptocurrency wallets.\n\nAccording to ASEC’s report, RDP as an attack vector allows adversaries to scan target systems and gain unauthorized remote access, eventually leading to brute force attacks and other malicious activities. In addition, adversaries can also use RDP to obtain the victim’s credentials stored in the targeted system to access and control the system. After gaining access the adversaries typically create a folder (Skynet work) in the \"Music\" directory and deploy the GlobeImposter ransomware through the explorer process (explorer.exe).\n\nMoreover, once the ransomware installs on the victim’s system, it proceeds with its encryption process. In addition, the ransomware deletes the volume shadow copies, RDP-related settings, and logs to evade detection, and drops the ransom note. As mentioned, other network scanners, credential-stealing tools, and malware deploy with GlobeImposter ransomware.\n\nPrevious reports from HC3 and CISA disclosed that the adversaries behind the MedusaLocker ransomware had used RDP as an attack vector, which aligns with the campaign that deploys the GlobeImposter ransomware. In addition, ASEC identified similarities between the MedusaLocker and GlobeImposter ransomware’ email and onion addresses listed in their ransom notes. ASEC’s analysis also revealed that the recent campaign had both the ransomware deployed side-by-side.",
+                    "topic": {
+                        "id": "TXSFt5",
+                        "name": "Validated Intelligence Event",
+                        "type": "Topic",
+                        "description": "Concise analysis of a cyber event, particularly around a breaking or new cyber attack event."
+                    },
+                    "context_entities": [
+                        {
+                            "id": "J2TQmu",
+                            "name": "Cryptocurrency",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "1cXw6",
+                            "name": "Port scanner",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "J0Nl-p",
+                            "name": "Ransomware",
+                            "type": "MalwareCategory"
+                        },
+                        {
+                            "id": "KuIOPj",
+                            "name": "CoinMiner",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "VT2KmL",
+                            "name": "XMRig Miner",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "CYU9K",
+                            "name": "Remote Desktop Protocol",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "DDGpZj",
+                            "name": "Brute Force Attack",
+                            "type": "AttackVector"
+                        }
+                    ],
+                    "validation_urls": [
+                        {
+                            "id": "url:https://asec.ahnlab.com/en/48940/",
+                            "name": "https://asec.ahnlab.com/en/48940/",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-181a",
+                            "name": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-181a",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.hhs.gov/sites/default/files/medusalocker-ransomware-analyst-note.pdf",
+                            "name": "https://www.hhs.gov/sites/default/files/medusalocker-ransomware-analyst-note.pdf",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://s.tencent.com/research/report/439.html",
+                            "name": "https://s.tencent.com/research/report/439.html",
+                            "type": "URL"
+                        }
+                    ],
+                    "title": "Malicious Campaign Uses RDP to Deploy GlobeImposter, MedusaLocker and Other Malware",
+                    "note_entities": [
+                        {
+                            "id": "bqvw7C",
+                            "name": "MedusaLocker",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "SYYEWL",
+                            "name": "GlobeImposter ",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "VT2KmL",
+                            "name": "XMRig Miner",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "hash:a03b57cc0103316e974bbb0f159f78f6",
+                            "name": "a03b57cc0103316e974bbb0f159f78f6",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:5e1a53a0178c9be598edff8c5170b91c",
+                            "name": "5e1a53a0178c9be598edff8c5170b91c",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:4fdabe571b66ceec3448939bfb3ffcd1",
+                            "name": "4fdabe571b66ceec3448939bfb3ffcd1",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:ddfad0d55be70acdfea36acf28d418b3",
+                            "name": "ddfad0d55be70acdfea36acf28d418b3",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:6a58b52b184715583cda792b56a0a1ed",
+                            "name": "6a58b52b184715583cda792b56a0a1ed",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:715ddf490dbaf7d67780e44448e21ca1",
+                            "name": "715ddf490dbaf7d67780e44448e21ca1",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:f627c30429d967082cdcf634aa735410",
+                            "name": "f627c30429d967082cdcf634aa735410",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:597de376b1f80c06d501415dd973dcec",
+                            "name": "597de376b1f80c06d501415dd973dcec",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:4edd26323a12e06568ed69e49a8595a5",
+                            "name": "4edd26323a12e06568ed69e49a8595a5",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:70f87b7d3aedcd50c9e1c79054e026bd",
+                            "name": "70f87b7d3aedcd50c9e1c79054e026bd",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "J0Nl-p",
+                            "name": "Ransomware",
+                            "type": "MalwareCategory"
+                        },
+                        {
+                            "id": "hash:bb8bdb3e8c92e97e2f63626bc3b254c4",
+                            "name": "bb8bdb3e8c92e97e2f63626bc3b254c4",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:646698572afbbf24f50ec5681feb2db7",
+                            "name": "646698572afbbf24f50ec5681feb2db7",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:21ea77788aa2649614c9ec739f1dd1b8",
+                            "name": "21ea77788aa2649614c9ec739f1dd1b8",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "DDGpZj",
+                            "name": "Brute Force Attack",
+                            "type": "AttackVector"
+                        },
+                        {
+                            "id": "url:http://46.148.235.114/cmd.php",
+                            "name": "http://46.148.235.114/cmd.php",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "CYU9K",
+                            "name": "Remote Desktop Protocol",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "Koaobl",
+                            "name": "Mimikatz",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "mitre:T1105",
+                            "name": "T1105",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1204.002",
+                            "name": "T1204.002",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1486",
+                            "name": "T1486",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1083",
+                            "name": "T1083",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1595",
+                            "name": "T1595",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1046",
+                            "name": "T1046",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1587.001",
+                            "name": "T1587.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1490",
+                            "name": "T1490",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1070",
+                            "name": "T1070",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1005",
+                            "name": "T1005",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1021.001",
+                            "name": "T1021.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1021",
+                            "name": "T1021",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1586",
+                            "name": "T1586",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1078",
+                            "name": "T1078",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1110",
+                            "name": "T1110",
+                            "type": "MitreAttackIdentifier"
+                        }
+                    ]
+                },
+                "source": {
+                    "id": "source:VKz42X",
+                    "name": "Insikt Group",
+                    "type": "Source"
+                },
+                "id": "qULGLG"
+            },
+            {
+                "attributes": {
+                    "validated_on": "2022-09-13T04:00:00.000Z",
+                    "published": "2022-09-14T21:35:34.344Z",
+                    "text": "A cyberespionage campaign which targets government entities in Asia has been linked to China-aligned threat actors, according to a September 13, 2022 report by Symantec. Since the start of this ongoing campaign in 2021, the attackers have targeted government institutions, state-owned aerospace and defense firms, telecommunications companies, media, and information technology organizations in Asia. Initially, the attackers used various legitimate software packages to sideload ShadowPad, a modular RAT that serves as a successor to PlugX (also known as Korplug), but have since adapted to deploy a variety of different payloads.\n\nTo deploy payloads, the threat actors used the DLL side-loading technique, wherein attackers place a malicious DLL file in a Windows WinSxS directory where a legitimate DLL is usually located. The operating system then loads the spoofed DLL file, and the malicious code, onto the system. Using DLL side-loading in this campaign, the attackers loaded a [.]dat file that contained arbitrary shellcode to execute the attackers’ payloads.\n\nSymantec outlined the adversaries’ attack sequence using a case study of a campaign beginning in April 2022 on an education organization in Asia. After gaining access through a backdoor, the threat actors used ProcDump (initially) and Mimikatz (2 weeks later) to steal user credentials. The attackers attempted to exploit CVE-2020-1472, a Netlogon vulnerability, to gain elevated privileges in the targeted network. Attackers also deployed Fscan malware to exploit CVE-2021-26855 against Microsoft Exchange servers. Further, the adversaries used the computer software PsExec to execute Bitdefender Crash Handler, an outdated legitimate application, to distribute additional malware tools onto other computers on the network. The attackers capitalized on the fact that these older versions of software often do not have safeguards against DLL side-loading built in.\n\nInterestingly, one of the attackers' payloads, the information stealer Infostealer[.]Logdatter, was previously undocumented and appears to be custom made, according to Symantec’s analysis. The information stealer features capabilities such as keylogging, screenshots, connecting to SQL databases, code injection, downloading files, and stealing clipboard data. Other payloads disseminated by the attackers included PlugX, Trochilus RAT, and QuasarRAT.\n\nFor post-exploitation activities, attackers used freely accessible tools, including LadonGo, Nirsoft Remote Desktop PassView, a Simple Network Management Protocol (SNMP) scanning tool, Fscan, Nbtscan, FileZilla, FastReverseProxy, WebPass, TCPing, and PowerSploit scripts.\n\nSymantec’s Threat Hunter team linked this campaign to 2 groups: APT41 (Blackfly/Grayfly) and RedDelta (BRONZE PRESIDENT/Mustang Panda). There is also evidence that these 2 groups have been involved in previous cyberattacks involving Korplug and PlugX malware, for example a campaign targeting Microsoft Exchange Servers in March 2021. Further, the current campaign used a legitimate Bitdefender Crash Handler file (javac.exe; which was previously observed in APT41-related attacks, providing further evidence that APT41 was involved in this most recent campaign.\n\nMoreover, ShadowPad has a history of being associated with Chinese threat actor activity, such as a RedEcho campaign observed in March 2021, RedFoxtrot activities detailed in June 2021, and APT41 activities in February 2022. As recently as July 2022, Insikt Group observed TAG-22, a suspected Chinese state-sponsored threat activity group, targeting government organizations in Afghanistan, Bangladesh, Cambodia, Bhutan, Thailand, and the United States using ShadowPad and Cobalt Strike.\n\nA CISA roundup released in April 2022 listed the Netlogon vulnerability, exploited by attackers in this campaign, as one of the most exploited vulnerabilities in 2021. The vulnerability is an elevation of privilege vulnerability that exists in Microsoft’s Netlogon Remote Protocol (MS-NRPC). If successfully exploited, an adversary could run a specially crafted malicious application on a device on the victim’s network. Microsoft released a patch for the Netlogon vulnerability, which was last updated in February 2021. The other vulnerability exploited by the attackers, CVE-2021-26855, has also been patched by Microsoft since March 2021. To the extent that organizations have not already adopted the patches for these 2 vulnerabilities, security teams are urged to do so.\n\nIn a comment to the Record, Recorded Future’s media outlet, a cybersecurity researcher noted that DLL side-loading, although not a new technique, has proven to be a successful exploitation mechanism for threat actors. Insikt Group has reported on several campaigns that use DLL side-loading for exploitation, including: Iron Tiger’s compromise of legitimate application installers observed in August 2022, the exploitation of legitimate Microsoft applications to perform DLL side-loading in July 2022, and previous RedDelta campaigns, including the long-standing campaign targeting the Roman Catholic Church in July 2020. The use of legitimate applications to carry out DLL side-loading further increases the opportunity for malicious campaigns to go undetected.\n\nTo mitigate DLL side-loading attacks, software developers should ensure that imported DLLs actually exist, that imported functions are valid, utilize DLL detection or a manifest file, and should check that the full path is hardcoded. Software publishers should always stay alert to DLL vulnerabilities that may exist in their products, in order to create patches for them as soon as they are detected. Further, companies should avoid operating on outdated software packages, which are vulnerable to security flaws which are used by these threat actors to gain access into the target system. Regular system and software updates are crucial for maintaining a hardened security environment that can withstand APT41 and RedDelta’s malicious activities.\n\nThis latest campaign is almost exclusively focused on gathering intelligence from government entities in Asia, indicating that strategic interests are the main focus of these 2 APT groups. Although the victimology of this campaign is niche, the fact that threat actors can continue to use the same tactic (DLL side-loading) to deploy the same payload (ShadowPad) indicates that companies remain vulnerable to these attacks. Not only is the unchanging nature of this campaign notable, but also the way in which this group continues to evolve, as shown by its use of a new information stealer. Not only should organizations who are vulnerable to APT41 and RedDelta’s activities bolster their security posture against DLL side-loading tactics, but they should also keep an eye out for evolving TTPs associated with these threat groups. Security teams can access and implement TTPs, Sigma rules, and YARA rules for RedDelta, APT41, and ShadowPad in Recorded Future’s platform.",
+                    "topic": {
+                        "id": "TXSFt5",
+                        "name": "Validated Intelligence Event",
+                        "type": "Topic",
+                        "description": "Concise analysis of a cyber event, particularly around a breaking or new cyber attack event."
+                    },
+                    "context_entities": [
+                        {
+                            "id": "JMPS3E",
+                            "name": "NetLogon",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "mMRU1E",
+                            "name": "Fast Reverse Proxy (FRP)",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "TEwWo-",
+                            "name": "TAG-74",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "JKUkBN",
+                            "name": "ProcDump",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "JgEq3K",
+                            "name": "Simple Network Management Protocol",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "B_E5l",
+                            "name": "Symantec",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "Kj2ds3",
+                            "name": "PsExec",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "QCqLhE",
+                            "name": "Backdoor",
+                            "type": "MalwareCategory"
+                        },
+                        {
+                            "id": "KcT1vC",
+                            "name": "Crash Handler",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "I60vfZ",
+                            "name": "RedGolf",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "I4qB7n",
+                            "name": "Filezilla",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "PkR9hs",
+                            "name": "Powersploit",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "mrdBD",
+                            "name": "Code injection",
+                            "type": "AttackVector"
+                        },
+                        {
+                            "id": "LW3MDH",
+                            "name": "DLL Side-Loading",
+                            "type": "AttackVector"
+                        },
+                        {
+                            "id": "QgJxnM",
+                            "name": "Tick Group",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "B_E7B",
+                            "name": "Microsoft",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "DqOdH",
+                            "name": "BitDefender",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "en_T6N",
+                            "name": "RedDelta",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "T36U6-",
+                            "name": "ShadowPad",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "B_Fgr",
+                            "name": "Afghanistan",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "P5F8HN",
+                            "name": "QuasarRAT",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "fnnEt",
+                            "name": "Dynamic Link Library",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "B_KDU",
+                            "name": "Cambodia",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "B_FNa",
+                            "name": "China",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "B_FAG",
+                            "name": "United States",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "ezpIWN",
+                            "name": "CVE-2020-1472",
+                            "type": "CyberVulnerability",
+                            "description": "An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'."
+                        },
+                        {
+                            "id": "JLHNoH",
+                            "name": "Cobalt Strike",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "JjYWpL",
+                            "name": "NRPC",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "B_FaK",
+                            "name": "Bhutan",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "TJUEwK",
+                            "name": "Insikt Group",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "hY1uU-",
+                            "name": "RedEcho",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "B_FZ8",
+                            "name": "Bangladesh",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "KBwQKT",
+                            "name": "Yara Rules",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "J0LOpv",
+                            "name": "Malicious code",
+                            "type": "AttackVector"
+                        },
+                        {
+                            "id": "TlwN1q",
+                            "name": "Sigma Rules",
+                            "type": "Technology"
+                        },
+                        {
+                            "id": "ME4QX",
+                            "name": "Recorded Future",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "PtNxGj",
+                            "name": "Trochilus",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "JS5BdY",
+                            "name": "PlugX",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "i6eRSg",
+                            "name": "RedHotel",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "Kt5me7",
+                            "name": "ShellCode",
+                            "type": "AttackVector"
+                        },
+                        {
+                            "id": "B_Fop",
+                            "name": "Thailand",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "oCLkhK",
+                            "name": "Nirsoft Remote Desktop PassView",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "KtTl_b",
+                            "name": "WindowsWINSxs",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "izUZWO",
+                            "name": "RedFoxtrot",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "hdR6BQ",
+                            "name": "CVE-2021-26855",
+                            "type": "CyberVulnerability",
+                            "description": "Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078."
+                        }
+                    ],
+                    "validation_urls": [
+                        {
+                            "id": "url:https://symantec-enterprise-blogs.security.com/blogs/-intelligence/espionage-asia-governments",
+                            "name": "https://symantec-enterprise-blogs.security.com/blogs/-intelligence/espionage-asia-governments",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://therecord.media/chinese-govt-hackers-using-diverse-toolset-to-target-asian-prime-ministers-telecoms/",
+                            "name": "https://therecord.media/chinese-govt-hackers-using-diverse-toolset-to-target-asian-prime-ministers-telecoms/",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.bleepingcomputer.com/news/security/cyberspies-drop-new-infostealer-malware-on-govt-networks-in-asia/",
+                            "name": "https://www.bleepingcomputer.com/news/security/cyberspies-drop-new-infostealer-malware-on-govt-networks-in-asia/",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://unit42.paloaltonetworks.com/thor-plugx-variant/",
+                            "name": "https://unit42.paloaltonetworks.com/thor-plugx-variant/",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://therecord.media/redecho-group-parks-domains-after-public-exposure/",
+                            "name": "https://therecord.media/redecho-group-parks-domains-after-public-exposure/",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.recordedfuture.com/redfoxtrot-china-pla-targets-bordering-asian-countries?__hstc=156209188.0868ee7589628030fd87cb8e84886ed7.1651762619631.1663094015400.1663174615689.80&__hssc=156209188.1.1663174615689&__hsfp=1103725085",
+                            "name": "https://www.recordedfuture.com/redfoxtrot-china-pla-targets-bordering-asian-countries?__hstc=156209188.0868ee7589628030fd87cb8e84886ed7.1651762619631.1663094015400.1663174615689.80&__hssc=156209188.1.1663174615689&__hsfp=1103725085",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.secureworks.com/research/shadowpad-malware-analysis",
+                            "name": "https://www.secureworks.com/research/shadowpad-malware-analysis",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://app.recordedfuture.com/live/sc/xFBN3kUxgIxr",
+                            "name": "https://app.recordedfuture.com/live/sc/xFBN3kUxgIxr",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.cisa.gov/uscert/ncas/alerts/aa22-117a",
+                            "name": "https://www.cisa.gov/uscert/ncas/alerts/aa22-117a",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-1472",
+                            "name": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-1472",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26855",
+                            "name": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26855",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://app.recordedfuture.com/live/sc/20RTsk8HlCYu",
+                            "name": "https://app.recordedfuture.com/live/sc/20RTsk8HlCYu",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://app.recordedfuture.com/live/sc/cI1jOucva0tl",
+                            "name": "https://app.recordedfuture.com/live/sc/cI1jOucva0tl",
+                            "type": "URL"
+                        }
+                    ],
+                    "title": "New InfoStealer for Cyberespionage Activities Targets Asian Governments",
+                    "note_entities": [
+                        {
+                            "id": "B_FNa",
+                            "name": "China",
+                            "type": "Country"
+                        },
+                        {
+                            "id": "mitre:T1590",
+                            "name": "T1590",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1569.002",
+                            "name": "T1569.002",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1059",
+                            "name": "T1059",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1574.002",
+                            "name": "T1574.002",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1505.001",
+                            "name": "T1505.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1055.001",
+                            "name": "T1055.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1027.002",
+                            "name": "T1027.002",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1003.001",
+                            "name": "T1003.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1552.001",
+                            "name": "T1552.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1021.001",
+                            "name": "T1021.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1056.001",
+                            "name": "T1056.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1113",
+                            "name": "T1113",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1115",
+                            "name": "T1115",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "ip:88.218.193.76",
+                            "name": "88.218.193.76",
+                            "type": "IpAddress"
+                        },
+                        {
+                            "id": "ip:8.214.122.199",
+                            "name": "8.214.122.199",
+                            "type": "IpAddress"
+                        },
+                        {
+                            "id": "ip:103.56.114.69",
+                            "name": "103.56.114.69",
+                            "type": "IpAddress"
+                        },
+                        {
+                            "id": "ip:27.124.17.222",
+                            "name": "27.124.17.222",
+                            "type": "IpAddress"
+                        },
+                        {
+                            "id": "hash:386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
+                            "name": "386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:1a95c0b8046aafa8f943bd6b68f3de550177f8df8c382f12468c4dcb416b12bc",
+                            "name": "1a95c0b8046aafa8f943bd6b68f3de550177f8df8c382f12468c4dcb416b12bc",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:138c82c81ed7b84378a821074c88157c489d29d5ef66080baea88f5de0e865e6",
+                            "name": "138c82c81ed7b84378a821074c88157c489d29d5ef66080baea88f5de0e865e6",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:704e6eb9bded6d22feab88fa81e6b0b901bee7a451a290c20527c48c235ebf52",
+                            "name": "704e6eb9bded6d22feab88fa81e6b0b901bee7a451a290c20527c48c235ebf52",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:7a25b21df9fa93a694f15d18cd81c9f9be6fc078912924c91c645f75a5966881",
+                            "name": "7a25b21df9fa93a694f15d18cd81c9f9be6fc078912924c91c645f75a5966881",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:1d6aabf2114f9e6367b515d4ebfc6e104511ff4b05bd51a56fa52070c1d40e25",
+                            "name": "1d6aabf2114f9e6367b515d4ebfc6e104511ff4b05bd51a56fa52070c1d40e25",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:5bedd1b05879b900b60a07abc57fab3075266ee7fa72385ced582699a51f1ec7",
+                            "name": "5bedd1b05879b900b60a07abc57fab3075266ee7fa72385ced582699a51f1ec7",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:49c23a187810edd3c16689ee1766445ec49a7221507dbe51e7b5af8ec46a91ee",
+                            "name": "49c23a187810edd3c16689ee1766445ec49a7221507dbe51e7b5af8ec46a91ee",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:e51fc50defd89da446ddc0391e53ace60b016e497c5cb524fd81efdeadda056d",
+                            "name": "e51fc50defd89da446ddc0391e53ace60b016e497c5cb524fd81efdeadda056d",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:2237e15b094983a79f60bc1f7e962b7fb63aae75cbf5043ee636be4c8fdb9bee",
+                            "name": "2237e15b094983a79f60bc1f7e962b7fb63aae75cbf5043ee636be4c8fdb9bee",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:b7f6cf8a6a697b254635eb0b567e2a897c7f0cefb0c0d4576326dc3f0eb09922",
+                            "name": "b7f6cf8a6a697b254635eb0b567e2a897c7f0cefb0c0d4576326dc3f0eb09922",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:1c7e2d6ae46ff6c294885cb7936c905f328b303d6f790b66d7c4489f284c480a",
+                            "name": "1c7e2d6ae46ff6c294885cb7936c905f328b303d6f790b66d7c4489f284c480a",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:c3ae09887659cde70d636157c5a0efd36359efdfb2fe6a8e2cdd4e5b37528f51",
+                            "name": "c3ae09887659cde70d636157c5a0efd36359efdfb2fe6a8e2cdd4e5b37528f51",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:fa7eee6e322bfad1bb0487aa1275077d334f5681f0b4ede0ee784c0ec1567e01",
+                            "name": "fa7eee6e322bfad1bb0487aa1275077d334f5681f0b4ede0ee784c0ec1567e01",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:d274190a347df510edf6b9a16987cea743d8df0e4c16af10787a31f0fec66da2",
+                            "name": "d274190a347df510edf6b9a16987cea743d8df0e4c16af10787a31f0fec66da2",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:20c767d32304ed2812ed8186dc14ddaaae581481c6dee26447a904fcaa67db2a",
+                            "name": "20c767d32304ed2812ed8186dc14ddaaae581481c6dee26447a904fcaa67db2a",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:cf5537af7dd1d0dbb77e327474aa58b2853cb1a1d4190991ac3d9ca40b7841aa",
+                            "name": "cf5537af7dd1d0dbb77e327474aa58b2853cb1a1d4190991ac3d9ca40b7841aa",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:df9a2471c23790a381e286bb96ea3401b94686b7ca067297a7920a76a7202112",
+                            "name": "df9a2471c23790a381e286bb96ea3401b94686b7ca067297a7920a76a7202112",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:05fb86d34d4fa761926888e5347d96e984bbb1f3b693fe6c3ab77edb346f005b",
+                            "name": "05fb86d34d4fa761926888e5347d96e984bbb1f3b693fe6c3ab77edb346f005b",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:aba3e885768a6436b3c8bc208b328620f001c63db7a3efe6142e653cdf5dfbf7",
+                            "name": "aba3e885768a6436b3c8bc208b328620f001c63db7a3efe6142e653cdf5dfbf7",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:0f81c3850bc82a7d1927cf16bfad86c09414f8be319ef84b44a726103b7d029d",
+                            "name": "0f81c3850bc82a7d1927cf16bfad86c09414f8be319ef84b44a726103b7d029d",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:9f04c46e0cdaa5bce32d98065e1e510a5f174e51b399d6408f2446444cccd5ff",
+                            "name": "9f04c46e0cdaa5bce32d98065e1e510a5f174e51b399d6408f2446444cccd5ff",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:12534f7014b3338d8f9f86ff1bbeacf8c80ad03f1d0d19077ff0e406c58b5133",
+                            "name": "12534f7014b3338d8f9f86ff1bbeacf8c80ad03f1d0d19077ff0e406c58b5133",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:23d0eff3c37390d38e6386a964c88ac2dafbace92090a762ae9e23bd49510f09",
+                            "name": "23d0eff3c37390d38e6386a964c88ac2dafbace92090a762ae9e23bd49510f09",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:3e53deb5d2572c0f9fae10b870c8d4f5fdc7bd0fe1cc3b15ca91b31924373136",
+                            "name": "3e53deb5d2572c0f9fae10b870c8d4f5fdc7bd0fe1cc3b15ca91b31924373136",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:2f1520301536958bcf5c65516ca85a343133b443db9835a58049cd1694460424",
+                            "name": "2f1520301536958bcf5c65516ca85a343133b443db9835a58049cd1694460424",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "name": "912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:38d4456b38a2896f23cad615e3c9167e65434778074a9b24af3cbc14d1e323bf",
+                            "name": "38d4456b38a2896f23cad615e3c9167e65434778074a9b24af3cbc14d1e323bf",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:77358157efbf4572c2d7f17a1a264990843307f802d20bad4fb2442245d65f0b",
+                            "name": "77358157efbf4572c2d7f17a1a264990843307f802d20bad4fb2442245d65f0b",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "ezpIWN",
+                            "name": "CVE-2020-1472",
+                            "type": "CyberVulnerability",
+                            "description": "An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'."
+                        },
+                        {
+                            "id": "hdR6BQ",
+                            "name": "CVE-2021-26855",
+                            "type": "CyberVulnerability",
+                            "description": "Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078."
+                        },
+                        {
+                            "id": "JxldL2",
+                            "name": "Aerospace and Defense",
+                            "type": "Industry"
+                        },
+                        {
+                            "id": "ZiGgcc",
+                            "name": "Government",
+                            "type": "Industry"
+                        },
+                        {
+                            "id": "I50Pbd",
+                            "name": "Information Technology",
+                            "type": "Industry"
+                        },
+                        {
+                            "id": "BEifq6",
+                            "name": "Media and Entertainment",
+                            "type": "Industry"
+                        },
+                        {
+                            "id": "JxldL7",
+                            "name": "Telecommunications",
+                            "type": "Industry"
+                        },
+                        {
+                            "id": "T36U6-",
+                            "name": "ShadowPad",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "Koaobl",
+                            "name": "Mimikatz",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "Kj2dz8",
+                            "name": "FScan",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "JS5BdY",
+                            "name": "PlugX",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "PtNxGj",
+                            "name": "Trochilus",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "P5F8HN",
+                            "name": "QuasarRAT",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "SMlvRl",
+                            "name": "Stealware",
+                            "type": "MalwareCategory"
+                        }
+                    ]
+                },
+                "source": {
+                    "id": "source:VKz42X",
+                    "name": "Insikt Group",
+                    "type": "Source"
+                },
+                "id": "n-oKLs"
+            },
+            {
+                "attributes": {
+                    "validated_on": "2022-06-21T04:00:00.000Z",
+                    "published": "2022-06-24T14:24:25.973Z",
+                    "text": "On June 21, 2022, intelligence firm Cisco Talos published a report outlining a month-long campaign by AvosLocker Ransomware Group, wherein the firm observed several new tactics in the group's attack arsenal. Avos has been active since June 2021 and follows the ransomware-as-a-service (RaaS) model, and recently developed a new ransomware variant called AvosLocker. The highlighted month-long campaign, which began in February 2022, displayed some new and sophisticated behavior from the threat actor group. Over the course of its campaign, researchers observed Avos using various tools, including Cobalt Strike, Mimikatz, Sliver and multiple commercial network scanners. \n\nIn this particular campaign, the initial access vector was a ESXi server exposed over VMWare Horizon Unified Access Gateways (UAG) on the internet, which was vulnerable to the Log4Shell vulnerability. Several other vulnerabilities were also found the UAG, tracked as “CVE-2021-44228”, “CVE-2021-45046”, “CVE-2021-45105”, and “CVE-2021-44832”, which could potentially allow low-privilege non-root adversaries to perform remote code execution on the UAG.\n\nAdditionally, Cisco Talos observed Avos utilizing living-off-the-land binaries (LoLBins) and WMI Provider Host (wmiprvse.exe) on a Windows Server to run an encoded PowerShell script using the DownloadString method. These are steps that are deployed when the adversary is attempting to establish a foothold in the victim's network. AvosLocker Ransomware Group was also seen using port scanner tools for Windows and macOS called “SoftPerfect Network Scanner”. In the groups first stages of lateral movement, threat actors used WMI command-line (WMIC) to modify the administrative settings on both a local and a remote host. AvosLocker Ransomware Group was then able to move more freely within its victims' networks. \n\nIn its final stages of the campaign, the adversaries exploited a legitimate software deployment tool, known as “PDQ Deploy”, to spread its ransomware across the targeted network quickly and efficiently. Once the ransomware was deployed, it encrypted all of the victim's files and folders, and displayed a ransom note.\n\nCisco Talos outlines several security recommendations that can be taken from their report on this month-long campaign by AvosLocker Ransomware Gang. As proactive measures, organizations and individuals should deploy robust cybersecurity software and establish clear security frameworks. Moreover, security teams should keep reliable system backups, and regularly update operations systems, softwares and firmwares to mitigate the risk of falling victim to a ransomware attack.",
+                    "topic": {
+                        "id": "TXSFt0",
+                        "name": "Flash Report",
+                        "type": "Topic",
+                        "description": "Overview analysis of a current event. Can include technical details and indicators of compromise."
+                    },
+                    "context_entities": [
+                        {
+                            "id": "CP8T-y",
+                            "name": "VMware ESXi",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "Lk2nwp",
+                            "name": "Talos Security Intelligence",
+                            "type": "Company"
+                        },
+                        {
+                            "id": "CoL9zI",
+                            "name": "Windows Management Instrumentation",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "B_HOS",
+                            "name": "Microsoft Windows",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "B_pRU",
+                            "name": "Microsoft Windows Server",
+                            "type": "Product"
+                        },
+                        {
+                            "id": "KsVn2",
+                            "name": "VMware Horizon",
+                            "type": "Product"
+                        }
+                    ],
+                    "validation_urls": [
+                        {
+                            "id": "url:https://blog.talosintelligence.com/2022/06/avoslocker-new-arsenal.html?&web_view=true",
+                            "name": "https://blog.talosintelligence.com/2022/06/avoslocker-new-arsenal.html?&web_view=true",
+                            "type": "URL"
+                        }
+                    ],
+                    "title": "AvosLocker Ransomware Group Adds Several Different Tools to Its Arsenal",
+                    "note_entities": [
+                        {
+                            "id": "kvXvR5",
+                            "name": "CVE-2021-44228",
+                            "type": "CyberVulnerability",
+                            "description": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects."
+                        },
+                        {
+                            "id": "hash:63bdd396ff6397b3a17913badb7905c88e217d0a8cf864ab5e71cc174a4f97a1",
+                            "name": "63bdd396ff6397b3a17913badb7905c88e217d0a8cf864ab5e71cc174a4f97a1",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:7f0deab21a3773295319e7a0afca1bea792943de0041e22523eb0d61a1c155e2",
+                            "name": "7f0deab21a3773295319e7a0afca1bea792943de0041e22523eb0d61a1c155e2",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "mitre:T1059.001",
+                            "name": "T1059.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "hash:cac73029ad6a543b423822923967f4c240d02516fab34185c59067896ac6eb99",
+                            "name": "cac73029ad6a543b423822923967f4c240d02516fab34185c59067896ac6eb99",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "mitre:T1105",
+                            "name": "T1105",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "J0Nl-p",
+                            "name": "Ransomware",
+                            "type": "MalwareCategory"
+                        },
+                        {
+                            "id": "hash:ffd933ad53f22a0f10cceb4986087258f72dffdd36999b7014c6b37c157ee45f",
+                            "name": "ffd933ad53f22a0f10cceb4986087258f72dffdd36999b7014c6b37c157ee45f",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "ip:176.113.115.107",
+                            "name": "176.113.115.107",
+                            "type": "IpAddress"
+                        },
+                        {
+                            "id": "mitre:T1218",
+                            "name": "T1218",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1068",
+                            "name": "T1068",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "ZLzEhD",
+                            "name": "Living-off-the-Land",
+                            "type": "AttackVector"
+                        },
+                        {
+                            "id": "hash:63ebb998ebbbfe3863214a85c388fc23b58af4492b2e96eb53c436360344d79d",
+                            "name": "63ebb998ebbbfe3863214a85c388fc23b58af4492b2e96eb53c436360344d79d",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "lkaZXI",
+                            "name": "AvosLocker Ransomware Group",
+                            "type": "Organization"
+                        },
+                        {
+                            "id": "hash:61239d726c92c82f553200ecbec3ac18d251902fb9ca4d4f52263c82374a5b75",
+                            "name": "61239d726c92c82f553200ecbec3ac18d251902fb9ca4d4f52263c82374a5b75",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "k_fsRV",
+                            "name": "CVE-2021-45105",
+                            "type": "CyberVulnerability",
+                            "description": "Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1."
+                        },
+                        {
+                            "id": "mitre:T1047",
+                            "name": "T1047",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "k73e7p",
+                            "name": "CVE-2021-44832",
+                            "type": "CyberVulnerability",
+                            "description": "Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2."
+                        },
+                        {
+                            "id": "mitre:T1190",
+                            "name": "T1190",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "hash:e68f9c3314beee640cc32f08a8532aa8dcda613543c54a83680c21d7cd49ca0f",
+                            "name": "e68f9c3314beee640cc32f08a8532aa8dcda613543c54a83680c21d7cd49ca0f",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:e4af7f048e93b159e20cc3efbacdb68e3c1fb213324daf325268ccb71f6c3189",
+                            "name": "e4af7f048e93b159e20cc3efbacdb68e3c1fb213324daf325268ccb71f6c3189",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "k9_Yfv",
+                            "name": "CVE-2021-45046",
+                            "type": "CyberVulnerability",
+                            "description": "It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default."
+                        },
+                        {
+                            "id": "hash:912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "name": "912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:29a3ae1d32e249d01b39520cd1db27aa980e646d83694ff078424bed60df9304",
+                            "name": "29a3ae1d32e249d01b39520cd1db27aa980e646d83694ff078424bed60df9304",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "ip:45.136.230.191",
+                            "name": "45.136.230.191",
+                            "type": "IpAddress"
+                        },
+                        {
+                            "id": "aaa7zE",
+                            "name": "Sliver",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "hash:48514e6bb92dd9e24a16a4ab1c7c3bd89dad76bef53cec2a671821024fadcb2b",
+                            "name": "48514e6bb92dd9e24a16a4ab1c7c3bd89dad76bef53cec2a671821024fadcb2b",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:f2faa8a91840de16efb8194182bcfa9919b74a2c2de40d6ed4791a3308897a01",
+                            "name": "f2faa8a91840de16efb8194182bcfa9919b74a2c2de40d6ed4791a3308897a01",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:cee38fd125aa3707dc77351dde129dba5e5aa978b9429ef3e09a95ebf127b46b",
+                            "name": "cee38fd125aa3707dc77351dde129dba5e5aa978b9429ef3e09a95ebf127b46b",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "mitre:T1203",
+                            "name": "T1203",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "JLHNoH",
+                            "name": "Cobalt Strike",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "mitre:T1046",
+                            "name": "T1046",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "hash:978dffa295ac822064ff6f7a6b6bc498e854f833d36633214d35ccce70db4819",
+                            "name": "978dffa295ac822064ff6f7a6b6bc498e854f833d36633214d35ccce70db4819",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "url:http://45.136.230.191:4000/D234R23",
+                            "name": "http://45.136.230.191:4000/D234R23",
+                            "type": "URL"
+                        }
+                    ]
+                },
+                "source": {
+                    "id": "source:VKz42X",
+                    "name": "Insikt Group",
+                    "type": "Source"
+                },
+                "id": "nC7CpU"
+            },
+            {
+                "attributes": {
+                    "validated_on": "2022-05-02T04:00:00.000Z",
+                    "published": "2022-05-03T17:27:47.791Z",
+                    "text": "On May 2, 2022, Trend Micro uncovered an AvosLocker Ransomware campaign that uses a legitimate Avast Anti-Rootkit driver file, named “asWarPot’sys”, to disable antivirus solutions and bypass detection. Based on Trend Micro’s telemetry data, AvosLocker allegedly used the Zoho ManageEngine ADSelfService Plus (ADSS) exploit as an entry point. After gaining initial access, the ADSS Java component executed “mshta.exe” to remotely run an HTML application (HTA) file from the attacker’s command-and-control (C2) server. The HTA file executed an obfuscated PowerShell script which contains a shellcode capable of connecting back to the C2 server to execute arbitrary commands. From there, the PowerShell process downloads an ASPX web shell that gathers username information, session ID, session state, idle time, and date and time the user logged on. \n\nTo move laterally within the victim’s network, the PowerShell exploit downloads, installs, and deploys the remote desktop tool AnyDeskMSI through the firewall. From there, a new user account with administrative privileges is created to ensure that AvosLocker can have administrative rights to the infected system. AvosLocker then deployed additional tools and components using the “AnyDeskMSI” to scan the local network and disable various security products. Once the security products were disabled, AvosLocker attempted to deploy additional tools, including Mimikatz, Impacket, and XenArmor (a password recovery tool).\n\nNotably, AvosLocker used an NMAP script to check for the Log4Shell vulnerability across the network. We recommend users upgrade Avast to the latest version, regularly back up data, and use the AvosLocker indicators of compromise (IOCs) to identify signs of malicious activities. \n",
+                    "topic": {
+                        "id": "TXSFt0",
+                        "name": "Flash Report",
+                        "type": "Topic",
+                        "description": "Overview analysis of a current event. Can include technical details and indicators of compromise."
+                    },
+                    "validation_urls": [
+                        {
+                            "id": "url:https://www.trendmicro.com/en_us/research/22/e/avoslocker-ransomware-variant-abuses-driver-file-to-disable-anti-Virus-scans-log4shell.html",
+                            "name": "https://www.trendmicro.com/en_us/research/22/e/avoslocker-ransomware-variant-abuses-driver-file-to-disable-anti-Virus-scans-log4shell.html",
+                            "type": "URL"
+                        },
+                        {
+                            "id": "url:https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+                            "name": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+                            "type": "URL"
+                        }
+                    ],
+                    "title": "AvosLocker Abuses Legitimate Driver File to Bypass Detection",
+                    "note_entities": [
+                        {
+                            "id": "i9R5n6",
+                            "name": "AvosLocker Ransomware",
+                            "type": "Malware"
+                        },
+                        {
+                            "id": "hash:e81a8f8ad804c4d83869d7806a303ff04f31cce376c5df8aada2e9db2c1eeb98",
+                            "name": "e81a8f8ad804c4d83869d7806a303ff04f31cce376c5df8aada2e9db2c1eeb98",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "name": "912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:ddcb0e99f27e79d3536a15e0d51f7f33c38b2ae48677570f36f5e92863db5a96",
+                            "name": "ddcb0e99f27e79d3536a15e0d51f7f33c38b2ae48677570f36f5e92863db5a96",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:a5ad3355f55e1a15baefea83ce81d038531af516f47716018b1dedf04f081f15",
+                            "name": "a5ad3355f55e1a15baefea83ce81d038531af516f47716018b1dedf04f081f15",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "hash:05ba2df0033e3cd5b987d66b6de545df439d338a20165c0ba96cde8a74e463e5",
+                            "name": "05ba2df0033e3cd5b987d66b6de545df439d338a20165c0ba96cde8a74e463e5",
+                            "type": "Hash"
+                        },
+                        {
+                            "id": "mitre:T1592",
+                            "name": "T1592",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1190",
+                            "name": "T1190",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1059.001",
+                            "name": "T1059.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1078.003",
+                            "name": "T1078.003",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1027",
+                            "name": "T1027",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1218.005",
+                            "name": "T1218.005",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1562.001",
+                            "name": "T1562.001",
+                            "type": "MitreAttackIdentifier"
+                        },
+                        {
+                            "id": "mitre:T1021.001",
+                            "name": "T1021.001",
+                            "type": "MitreAttackIdentifier"
+                        }
+                    ]
+                },
+                "source": {
+                    "id": "source:VKz42X",
+                    "name": "Insikt Group",
+                    "type": "Source"
+                },
+                "id": "meBWBK"
+            }
+        ],
+        "hashAlgorithm": "SHA-256",
+        "timestamps": {
+            "lastSeen": "2023-08-16T06:00:01.611Z",
+            "firstSeen": "2021-11-07T16:30:02.364Z"
+        },
+        "threatLists": [],
+        "intelCard": "https://app.recordedfuture.com/live/sc/entity/hash%3A912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+        "links": {
+            "hits": [
+                {
+                    "sections": [
+                        {
+                            "section_id": {
+                                "id": "iU_ZsE",
+                                "name": "Actors, Tools & TTPs",
+                                "type": "Category"
+                            },
+                            "total_count": 53,
+                            "lists": [
+                                {
+                                    "entities": [
+                                        {
+                                            "id": "mitre:T1003.001",
+                                            "name": "T1003.001",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1005",
+                                            "name": "T1005",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1021",
+                                            "name": "T1021",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1021.001",
+                                            "name": "T1021.001",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1027",
+                                            "name": "T1027",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1027.002",
+                                            "name": "T1027.002",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1046",
+                                            "name": "T1046",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1047",
+                                            "name": "T1047",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1055.001",
+                                            "name": "T1055.001",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1056.001",
+                                            "name": "T1056.001",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1059",
+                                            "name": "T1059",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1059.001",
+                                            "name": "T1059.001",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1068",
+                                            "name": "T1068",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1070",
+                                            "name": "T1070",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1078",
+                                            "name": "T1078",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1078.003",
+                                            "name": "T1078.003",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1083",
+                                            "name": "T1083",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1105",
+                                            "name": "T1105",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1110",
+                                            "name": "T1110",
+                                            "type": "MitreAttackIdentifier"
+                                        },
+                                        {
+                                            "id": "mitre:T1113",
+                                            "name": "T1113",
+                                            "type": "MitreAttackIdentifier"
+                                        }
+                                    ],
+                                    "total_count": 38,
+                                    "type": {
+                                        "id": "type:MitreAttackIdentifier",
+                                        "name": "MitreAttackIdentifier",
+                                        "type": "MetaType",
+                                        "description": "A Mitre Att&ck Identifier"
+                                    }
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "id": "lkaZXI",
+                                            "name": "AvosLocker Ransomware Group",
+                                            "type": "Organization"
+                                        }
+                                    ],
+                                    "total_count": 1,
+                                    "type": {
+                                        "id": "JW2OHE",
+                                        "name": "Threat Actor",
+                                        "type": "Position"
+                                    }
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "id": "DDGpZj",
+                                            "name": "Brute Force Attack",
+                                            "type": "AttackVector"
+                                        },
+                                        {
+                                            "id": "ZLzEhD",
+                                            "name": "Living-off-the-Land",
+                                            "type": "AttackVector"
+                                        }
+                                    ],
+                                    "total_count": 2,
+                                    "type": {
+                                        "id": "type:AttackVector",
+                                        "name": "AttackVector",
+                                        "type": "MetaType",
+                                        "description": "A named Attack Vector"
+                                    }
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "id": "i9R5n6",
+                                            "name": "AvosLocker Ransomware",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "JLHNoH",
+                                            "name": "Cobalt Strike",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "Kj2dz8",
+                                            "name": "FScan",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "SYYEWL",
+                                            "name": "GlobeImposter ",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "bqvw7C",
+                                            "name": "MedusaLocker",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "Koaobl",
+                                            "name": "Mimikatz",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "JS5BdY",
+                                            "name": "PlugX",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "P5F8HN",
+                                            "name": "QuasarRAT",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "T36U6-",
+                                            "name": "ShadowPad",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "aaa7zE",
+                                            "name": "Sliver",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "PtNxGj",
+                                            "name": "Trochilus",
+                                            "type": "Malware"
+                                        },
+                                        {
+                                            "id": "VT2KmL",
+                                            "name": "XMRig Miner",
+                                            "type": "Malware"
+                                        }
+                                    ],
+                                    "total_count": 12,
+                                    "type": {
+                                        "id": "type:Malware",
+                                        "name": "Malware",
+                                        "type": "MetaType",
+                                        "description": "A malware"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "start_date": "2022-05-03",
+                    "stop_date": "2023-03-09",
+                    "total_count": 4,
+                    "sample_reference_ids": [
+                        "Gi5F31G3ff9",
+                        "GiM6aTCmcdV",
+                        "GieAmZCbd5p",
+                        "HE-bAADQKlr"
+                    ],
+                    "counts": [
+                        {
+                            "count": 4,
+                            "type": {
+                                "id": "source:VKz42X",
+                                "name": "Insikt Group",
+                                "type": "Source"
+                            }
+                        }
+                    ],
+                    "event_count": 4
+                }
+            ],
+            "method_aggregates": [
+                {
+                    "count": 0,
+                    "type": "gTB8y2"
+                },
+                {
+                    "count": 0,
+                    "type": "hHQyM6"
+                },
+                {
+                    "count": 4,
+                    "type": "hHQyM7"
+                }
+            ],
+            "counts": [
+                {
+                    "count": 4,
+                    "type": {
+                        "id": "source:VKz42X",
+                        "name": "Insikt Group",
+                        "type": "Source"
+                    }
+                }
+            ]
+        },
+        "counts": [
+            {
+                "date": "2023-03-09",
+                "count": 1
+            },
+            {
+                "date": "2021-09-22",
+                "count": 14
+            },
+            {
+                "date": "2023-05-15",
+                "count": 9
+            },
+            {
+                "date": "2022-06-24",
+                "count": 1
+            },
+            {
+                "date": "2022-06-22",
+                "count": 3
+            },
+            {
+                "date": "2022-06-03",
+                "count": 1
+            },
+            {
+                "date": "2022-06-28",
+                "count": 9
+            },
+            {
+                "date": "2022-05-03",
+                "count": 35
+            },
+            {
+                "date": "2022-05-04",
+                "count": 16
+            },
+            {
+                "date": "2023-02-28",
+                "count": 2
+            },
+            {
+                "date": "2022-06-27",
+                "count": 2
+            },
+            {
+                "date": "2022-01-06",
+                "count": 1
+            },
+            {
+                "date": "2023-03-07",
+                "count": 4
+            },
+            {
+                "date": "2021-11-22",
+                "count": 2
+            },
+            {
+                "date": "2022-09-13",
+                "count": 10
+            },
+            {
+                "date": "2022-01-21",
+                "count": 1
+            },
+            {
+                "date": "2023-05-14",
+                "count": 2
+            },
+            {
+                "date": "2023-05-04",
+                "count": 2
+            },
+            {
+                "date": "2022-07-25",
+                "count": 1
+            },
+            {
+                "date": "2022-05-02",
+                "count": 4
+            },
+            {
+                "date": "2023-08-01",
+                "count": 1
+            },
+            {
+                "date": "2022-09-14",
+                "count": 1
+            },
+            {
+                "date": "2022-09-09",
+                "count": 1
+            },
+            {
+                "date": "2021-12-14",
+                "count": 3
+            },
+            {
+                "date": "2022-09-08",
+                "count": 3
+            },
+            {
+                "date": "2021-09-23",
+                "count": 1
+            },
+            {
+                "date": "2021-12-15",
+                "count": 4
+            },
+            {
+                "date": "2023-03-08",
+                "count": 3
+            },
+            {
+                "date": "2023-02-13",
+                "count": 3
+            },
+            {
+                "date": "2022-09-28",
+                "count": 2
+            },
+            {
+                "date": "2023-01-31",
+                "count": 6
+            },
+            {
+                "date": "2022-06-21",
+                "count": 5
+            },
+            {
+                "date": "2023-04-28",
+                "count": 2
+            }
+        ],
+        "metrics": [
+            {
+                "type": "oneDayHits",
+                "value": 0
+            },
+            {
+                "type": "totalHits",
+                "value": 155
+            },
+            {
+                "type": "malwareTestingDetonation",
+                "value": 1
+            },
+            {
+                "type": "positiveMalwareVerdictSightings",
+                "value": 11
+            },
+            {
+                "type": "malwareTestingDetonationSightings",
+                "value": 3
+            },
+            {
+                "type": "threatResearcher",
+                "value": 2
+            },
+            {
+                "type": "positiveMalwareVerdict",
+                "value": 3
+            },
+            {
+                "type": "linkedToVulnSightings",
+                "value": 30
+            },
+            {
+                "type": "threatResearcherSightings",
+                "value": 20
+            },
+            {
+                "type": "analystNoteSightings",
+                "value": 4
+            },
+            {
+                "type": "sevenDaysHits",
+                "value": 0
+            },
+            {
+                "type": "historicalThreatListMembershipSightings",
+                "value": -1
+            },
+            {
+                "type": "socialMediaHits",
+                "value": 1
+            },
+            {
+                "type": "undergroundForumHits",
+                "value": 0
+            },
+            {
+                "type": "infoSecHits",
+                "value": 41
+            },
+            {
+                "type": "linkedToVuln",
+                "value": 3
+            },
+            {
+                "type": "observedMalwareTesting",
+                "value": 1
+            },
+            {
+                "type": "whitelistedCount",
+                "value": 0
+            },
+            {
+                "type": "observedMalwareTestingSightings",
+                "value": 2
+            },
+            {
+                "type": "analystNote",
+                "value": 1
+            },
+            {
+                "type": "historicalThreatListMembership",
+                "value": 1
+            },
+            {
+                "type": "maliciousHits",
+                "value": 15
+            },
+            {
+                "type": "darkWebHits",
+                "value": 0
+            },
+            {
+                "type": "linkedToVectorSightings",
+                "value": 3
+            },
+            {
+                "type": "publicSubscore",
+                "value": 84
+            },
+            {
+                "type": "pasteHits",
+                "value": 2
+            },
+            {
+                "type": "mitigatedCount",
+                "value": 0
+            },
+            {
+                "type": "linkedToVector",
+                "value": 1
+            },
+            {
+                "type": "criticality",
+                "value": 3
+            },
+            {
+                "type": "technicalReportingHits",
+                "value": 62
+            },
+            {
+                "type": "malwareSubscore",
+                "value": 85
+            },
+            {
+                "type": "sixtyDaysHits",
+                "value": 1
+            }
+        ],
+        "updated": 1693488868
+    },
+    "parsed_data": {
+        "score": 89,
+        "criticalityLabel": "Malicious",
+        "criticality": 3,
+        "categories": [
+            {
+                "framework": "Technology",
+                "name": "Cryptocurrency"
+            },
+            {
+                "framework": "Technology",
+                "name": "Port scanner"
+            },
+            {
+                "framework": "MalwareCategory",
+                "name": "Ransomware"
+            },
+            {
+                "framework": "Malware",
+                "name": "CoinMiner"
+            },
+            {
+                "framework": "Malware",
+                "name": "XMRig Miner"
+            },
+            {
+                "framework": "Technology",
+                "name": "Remote Desktop Protocol"
+            },
+            {
+                "framework": "AttackVector",
+                "name": "Brute Force Attack"
+            }
+        ]
+    },
+    "status": 1,
+    "timestamp": 1693488868,
+    "enriched_on": 1693488872,
+    "verdict": "Malicious"
+}

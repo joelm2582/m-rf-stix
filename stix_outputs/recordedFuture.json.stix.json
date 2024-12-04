@@ -1,0 +1,128 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a559553-c90f-4b8e-a77d-7fcb10fb103b",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47",
+            "created": "2024-12-04T03:41:36.080852Z",
+            "modified": "2024-12-04T03:41:36.080852Z",
+            "name": "Recorded Future Indicator: 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9",
+            "description": "8 of 17 Risk Rules currently observed.",
+            "pattern": "[file:hashes.'SHA-256' = '912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2021-11-07T16:30:02.364Z",
+            "labels": [
+                "malicious-activity",
+                "malicious"
+            ],
+            "confidence": 89
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--9563cd0d-461f-439c-a53a-d0664ad2a371",
+            "created": "2024-12-04T03:41:36.093091Z",
+            "modified": "2024-12-04T03:41:36.093091Z",
+            "name": "Threat Researcher",
+            "description": "20 sightings on 2 sources: Trend Micro, Talos Intel. Most recent link (Sep 8, 2022): https://blog.talosintelligence.com/2022/09/lazarus-three-rats.html",
+            "published": "2022-09-08T08:01:00Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--8cf0b6b7-468e-4949-8a3f-a9d450594d72",
+            "created": "2024-12-04T03:41:36.093576Z",
+            "modified": "2024-12-04T03:41:36.093576Z",
+            "name": "Historically Reported in Threat List",
+            "description": "Previous sightings on 1 source: Recorded Future Analyst Community Trending Indicators. Observed between Sep 22, 2022, and Sep 27, 2022.",
+            "published": "2023-08-17T22:29:19.53Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--37bf2542-8269-4546-b502-0b192a080b15",
+            "created": "2024-12-04T03:41:36.093815Z",
+            "modified": "2024-12-04T03:41:36.093815Z",
+            "name": "Linked to Attack Vector",
+            "description": "3 sightings on 1 source: Insikt Group. 8 related attack vectors including Brute Force Attack, Malicious code, Living-off-the-Land, ShellCode, Code injection.",
+            "published": "2023-03-09T22:20:17.967Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--94b1c3d9-6f2a-48d0-ace5-fdfd5071f15b",
+            "created": "2024-12-04T03:41:36.094037Z",
+            "modified": "2024-12-04T03:41:36.094037Z",
+            "name": "Linked to Vulnerability",
+            "description": "30 sightings on 3 sources: Trend Micro, AlienVault | Pulses, Insikt Group. 14 related cyber vulnerabilities including CWE-918, CWE-917, CVE-2020-1472, CVE-2021-44832, CVE-2021-45105.",
+            "published": "2022-09-14T18:29:09.809Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--45cda572-8117-445d-ad7e-12a7239bc661",
+            "created": "2024-12-04T03:41:36.09426Z",
+            "modified": "2024-12-04T03:41:36.09426Z",
+            "name": "Positive Malware Verdict",
+            "description": "11 sightings on 3 sources: Recorded Future Triage Malware Analysis, PolySwarm PolyUnite, PolySwarm. Malware sandbox report for 912018ab3c6b16b39ee84f17745ff0c80a33cee241013ec35d0281e40c0658d9 on August 17, 2023.   Triage score: 10 (Known bad). Detections: Mimikatz. Contains: 0 ATT&CK behaviors, 0 command and control indicators, and 2 signatures. Most recent link (Aug 17, 2023): https://tria.ge/230817-1ljafafd3s",
+            "published": "2023-08-17T21:46:48Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--8d44d317-5c62-4eb8-9863-b137736c585c",
+            "created": "2024-12-04T03:41:36.09448Z",
+            "modified": "2024-12-04T03:41:36.09448Z",
+            "name": "Reported by Insikt Group",
+            "description": "4 sightings on 1 source: Insikt Group. 3 reports including New InfoStealer for Cyberespionage Activities Targets Asian Governments. Most recent link (Sep 14, 2022): https://app.recordedfuture.com/portal/analyst-note/doc:n-oKLs",
+            "published": "2023-03-09T00:00:00Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--c615f6af-d199-440e-b698-d9da506ae319",
+            "created": "2024-12-04T03:41:36.094696Z",
+            "modified": "2024-12-04T03:41:36.094696Z",
+            "name": "Positive Sandbox Detection on File From Underground Virus Testing Sites",
+            "description": "3 sightings on 1 source: Recorded Future Malware Detonation.",
+            "published": "2021-12-16T02:15:24Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--f34163e0-577d-40ea-801c-3b14f5df2ee6",
+            "created": "2024-12-04T03:41:36.094909Z",
+            "modified": "2024-12-04T03:41:36.094909Z",
+            "name": "Observed in Underground Virus Testing Sites",
+            "description": "2 sightings on 1 source: Special Collection Hashes.",
+            "published": "2022-08-30T18:05:42Z",
+            "object_refs": [
+                "indicator--522ad424-5c9f-4ceb-9ffb-83b475fa7b47"
+            ]
+        }
+    ]
+}
